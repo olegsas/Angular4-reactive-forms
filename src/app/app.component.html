@@ -15,7 +15,7 @@
         <label>Description
           <textarea formControlName="description"></textarea>
         </label>
-        <div class="alert" *ngIf="!rForm.controls['description'].valid && rForm.controls['description'].touched">You must specify a description that's between 30 and 500 characters.</div>
+        <div class="alert" *ngIf="!rForm.controls['description'].valid && rForm.controls['description'].touched">You must specify a description that's minimum 30 characters.</div>
 
 
         <label for="validate">Minimum of 3 Characters</label>
